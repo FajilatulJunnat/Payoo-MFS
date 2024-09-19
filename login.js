@@ -8,7 +8,7 @@ document.getElementById('btn-login').addEventListener('click',function (event) {
    const pinNumber=document.getElementById('pin-number').value
     console.log(phoneNumber,pinNumber);
     if (phoneNumber.length=== 11 && pinNumber.length===4) {
-        window.location.href ='/home.html';
+        window.location.href ='./home.html';
     }
     else{
         alert('Wrong ')
