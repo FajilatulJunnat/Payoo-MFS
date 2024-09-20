@@ -1,0 +1,9 @@
+document.getElementById('cashout-money-page').addEventListener('click',function(){
+    showSectionById('cashout-money-form')
+})
+document.getElementById('add-money-page').addEventListener('click',function(){
+    showSectionById('add-money-form')
+})
+document.getElementById('transection').addEventListener('click',function(){
+    showSectionById('transection-section')
+})
